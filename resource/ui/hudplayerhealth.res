@@ -118,12 +118,12 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"LEMONMILK-Bold12"
+		"fgcolor"		"185 255 125 255"
 	}
 	"PlayerStatusBleedImage"
 	{
