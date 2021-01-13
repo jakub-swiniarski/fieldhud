@@ -100,7 +100,7 @@
 		"font"			"Default"
 		"xpos"			"25"
 		"xpos_minmode"			"10"
-		"ypos"			"75"
+		"ypos"			"70"
 		"ypos_minmode"			"23"
 		"zpos"			"2"
 		"wide"			"150"
