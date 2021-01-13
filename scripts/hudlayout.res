@@ -76,13 +76,13 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c95"	[$WIN32]
+		"xpos"			"c-90"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
 		"ypos"			"c22"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"200"
+		"wide"			"500"
 		"tall"			"100"
 	}
 	
@@ -300,6 +300,7 @@
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
+		"alpha"		"0"
 
 		if_vr
 		{
@@ -424,7 +425,16 @@
 
 	HudDamageIndicator
 	{
-
+			"fieldName"		"HudDamageIndicator"
+			"visible"		"1"
+			"enabled"		"1"
+			"MinimumWidth"	"10"
+			"MaximumWidth"	"10"
+			"StartRadius"	"80"
+			"EndRadius"		"80"
+			"MinimumHeight"	"30"
+			"MaximumHeight" "60"
+			"MinimumTime"	"1"
 	}
 
 	HudCommentary
