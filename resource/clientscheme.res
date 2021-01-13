@@ -2976,7 +2976,7 @@ Scheme
 			}
 		}
 		
-		//LEMONMILK Bold fonts for HP and ammo
+		//LEMONMILK Bold fonts
 		
 		LEMONMILK-Bold12
 		{
@@ -3034,6 +3034,16 @@ Scheme
 			{
 				"name"		"LEMON MILK Bold"
 				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		LEMONMILK-Bold48
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Bold"
+				"tall"		"48"
 				"antialias" "1"
 			}
 		}
