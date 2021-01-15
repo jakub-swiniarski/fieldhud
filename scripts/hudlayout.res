@@ -65,7 +65,7 @@
 		"ypos_minmode"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"wide"			"350"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
