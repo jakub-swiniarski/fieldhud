@@ -38,7 +38,8 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"	
+		"alpha"			"0"
 	}
 	"AmmoInClip"
 	{
@@ -133,7 +134,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"LEMONMILK-Bold60"
 		"fgcolor"		"50 200 255 255"
-		"xpos"			"-32"
+		"xpos"			"-15"
 		"ypos"			"12"
 		"zpos"			"5"
 		"wide"			"175"
@@ -153,7 +154,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"LEMONMILK-Bold60"
 		"fgcolor"		"0 0 0 255"
-		"xpos"			"-28"
+		"xpos"			"-11"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
 		"ypos"			"12"
