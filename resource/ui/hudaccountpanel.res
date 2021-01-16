@@ -44,18 +44,19 @@
 		"wide_lodef"	"15"
 		"tall"			"10"
 		"tall_lodef"	"15"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"20 230 40 255"
+		"alpha"			"0"
 	}
 	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"46"
+		"xpos"			"52"
 		"ypos"			"70"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
@@ -79,7 +80,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBG"
-		"xpos"			"48"
+		"xpos"			"54"
 		"ypos"			"70"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
