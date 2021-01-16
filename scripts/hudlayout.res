@@ -1051,7 +1051,7 @@
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"250"
+		"wide"			"350"
 		"tall"			"250"
 	}	
 
