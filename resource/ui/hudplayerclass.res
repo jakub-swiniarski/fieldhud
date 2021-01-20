@@ -18,9 +18,9 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"5"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"c170"	[$WIN32]
+		"ypos"			"296"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
@@ -29,10 +29,11 @@
 		"wide_minmode"	"37"
 		"tall"			"75"
 		"tall_minmode"	"37"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+		"alpha"			"0"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -120,6 +121,84 @@
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+	}
+	
+	"bghealth"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bghealth"
+		"xpos"			"0"
+		"ypos"			"320"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"scaleImage"		"1"			
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	//move both bgs up and move model n health there, do the same for ammo but use r positions
+	"bghealth2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bghealth2"
+		"xpos"			"0"
+		"ypos"			"315"
+		"zpos"			"0"
+		"wide"			"125"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"20 20 20 255"
+	}
+
+	"bgammo"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bgammo"
+		"xpos"			"r120"
+		"ypos"			"320"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"scaleImage"		"1"			
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	//set same alpha as bg2 using "alpha" "150"
+	}
+	
+	"bgammo2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgammo2"
+		"xpos"			"r125"
+		"ypos"			"315"
+		"zpos"			"0"
+		"wide"			"125"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"20 20 20 255"
 	}
 
 	"classmodelpanel"
