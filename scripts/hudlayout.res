@@ -16,14 +16,14 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r120"	[$WIN32]
+		"xpos"	"r250"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"320"	[$WIN32]
+		"ypos"	"250"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
-		"wide"	"350"
-		"tall"	"120"
+		"wide"	"450"
+		"tall"	"350"
 	}
 	
 	HudObjectiveStatus
@@ -1045,14 +1045,14 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-110"	[$WIN32]
+		"xpos"			"r350"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"c-5"	[$WIN32]
+		"ypos"			"250"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"350"
-		"tall"			"250"
+		"tall"			"350"
 	}	
 
 	HudTeamGoal

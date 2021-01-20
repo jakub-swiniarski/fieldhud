@@ -55,7 +55,8 @@
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
+		"teambg_3"		"../hud/class_spyblue"	
+		"alpha"			"0"
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{
@@ -147,7 +148,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	//move both bgs up and move model n health there, do the same for ammo but use r positions
+	
 	"bghealth2"
 	{
 		"ControlName"	"ImagePanel"
@@ -159,46 +160,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"20 20 20 255"
-	}
-
-	"bgammo"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"bgammo"
-		"xpos"			"r120"
-		"ypos"			"320"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		"scaleImage"		"1"			
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	//set same alpha as bg2 using "alpha" "150"
-	}
-	
-	"bgammo2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bgammo2"
-		"xpos"			"r125"
-		"ypos"			"315"
-		"zpos"			"0"
-		"wide"			"125"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"20 20 20 255"
+		"fillcolor"		"0 0 0 255"
 	}
 
 	"classmodelpanel"
