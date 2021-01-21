@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"LEMONMILK-Bold24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"255 255 255 255"
 
 		if_readymode
 		{
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"LEMONMILK-Bold24"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 255"
 		"proportionaltoparent"	"1"
 
 	
@@ -206,76 +206,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"0"
-	}
-
-	"redteam"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"redteam"
-		"xpos"			"c0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"35"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"230 50 50 255"
-	}
-	
-	"bluteam"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bluteam"
-		"xpos"			"c-35"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"35"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"50 100 255 255"
-	}
-	
-	"darkerteamcolors"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"darkerteamcolors"
-		"xpos"			"c-35"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"70"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 50"
-	}
-	
-	"teamcolorsbg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"teamcolorsbg"
-		"xpos"			"c-54"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"110"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"45 45 45 255"
-	}
-	
-	"teamcolorsbgbg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"teamcolorsbgg"
-		"xpos"			"c-59"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"120"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
 	}
 
 	"BGFrame"
@@ -397,7 +327,7 @@
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"0"
+			"ypos"			"2"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
@@ -416,7 +346,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"0"
+				"ypos"			"2"
 				"ypos_minmode"	"12"
 				"tall"			"50"
 				"font"			"LEMONMILK-Bold16"
@@ -450,6 +380,62 @@
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c47"
 		"team2_max_expand"	"133"
+		
+		"redteam"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"redteam"
+			"xpos"			"c0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"35"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"230 50 50 255"
+		}
+		
+		"bluteam"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"bluteam"
+			"xpos"			"c-35"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"35"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"50 100 255 255"
+		}
+		
+		"darkerteamcolors"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"darkerteamcolors"
+			"xpos"			"c-35"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"70"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 50"
+		}
+		
+		"teamcolorsbg"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"teamcolorsbg"
+			"xpos"			"c-40"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"80"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"45 45 45 180"
+		}
 
 		"playerpanels_kv"
 		{
