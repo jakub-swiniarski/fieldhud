@@ -138,6 +138,20 @@
 			"fillcolor"		"0 0 0 255"
 		}
 		
+		"bgpipes3"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"bgpipes3"
+			"xpos"			"23"
+			"ypos"			"15"
+			"zpos"			"2"
+			"wide"			"45"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 100"
+		}
+		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"

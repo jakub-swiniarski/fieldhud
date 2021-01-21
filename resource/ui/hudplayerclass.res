@@ -161,6 +161,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
+	}	
+	
+	"bghealth3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bghealth3"
+		"xpos"			"0"
+		"ypos"			"320"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
 	}
 
 	"classmodelpanel"

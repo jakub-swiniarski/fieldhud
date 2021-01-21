@@ -205,7 +205,78 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+		"alpha"			"0"
+	}
+
+	"redteam"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"redteam"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"35"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"230 50 50 255"
+	}
+	
+	"bluteam"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bluteam"
+		"xpos"			"c-35"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"35"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 100 255 255"
+	}
+	
+	"darkerteamcolors"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"darkerteamcolors"
+		"xpos"			"c-35"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"70"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 50"
+	}
+	
+	"teamcolorsbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"teamcolorsbg"
+		"xpos"			"c-54"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"110"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"45 45 45 255"
+	}
+	
+	"teamcolorsbgbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"teamcolorsbgg"
+		"xpos"			"c-59"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
 
 	"BGFrame"
 	{
@@ -288,7 +359,7 @@
 		"wide"				"110"
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
-		"tall"				"150"
+		"tall"				"200"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -318,23 +389,23 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"LEMONMILK-Bold24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"255 255 255 255"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"0"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
 			"zpos"			"3"
-			"wide"			"45"
+			"wide"			"50"
 			"wide_minmode"	"30"
 			"wide_lodef"	"50"
-			"tall"			"31"
+			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -345,14 +416,14 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
+				"ypos"			"0"
 				"ypos_minmode"	"12"
-				"tall"			"10"
-				"font"			"HudFontSmall"
+				"tall"			"50"
+				"font"			"LEMONMILK-Bold16"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}
-		}	
+		}
 	}
 	"TeamStatus"
 	{
@@ -451,7 +522,7 @@
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"5"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -471,7 +542,7 @@
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"5"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
