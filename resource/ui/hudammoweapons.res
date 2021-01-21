@@ -81,6 +81,20 @@
 		"fillcolor"		"0 0 0 255"
 	}
 	
+	"bgammo3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgammo3"
+		"xpos"			"132"
+		"ypos"			"70"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
