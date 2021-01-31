@@ -107,6 +107,9 @@
 		"font"			"LEMONMILK-Bold60"
 		"fgcolor"		"0 0 0 255"
 	}
+	
+	//bg panels for health are located in hudplayerclass
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
