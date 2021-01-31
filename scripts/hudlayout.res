@@ -76,14 +76,14 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-90"	[$WIN32]
+		"xpos"			"r220"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"c22"	[$WIN32]
+		"ypos"			"250"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"500"
-		"tall"			"100"
+		"wide"			"250"
+		"tall"			"250"
 	}
 	
 	HudDemomanCharge
@@ -199,13 +199,13 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c50"	[$WIN32]
-		"ypos"					"c50"	[$WIN32]
+		"xpos"					"r200"	[$WIN32]
+		"ypos"					"220"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"250"
-		"tall"  				"180"
+		"tall"  				"250"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1053,6 +1053,7 @@
 		"ypos"			"r74"	[$X360]
 		"wide"			"350"
 		"tall"			"350"
+
 	}	
 
 	HudTeamGoal

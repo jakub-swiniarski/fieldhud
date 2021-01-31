@@ -5929,38 +5929,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/LEMONMILK-BoldItalic"
-			"name" "LEMON MILK Bold Italic"
-		}
-		"9"
-		{
-			"font" "resource/fonts/LEMONMILK-Light"
-			"name" "LEMON MILK Light"
-		}
-		"10"
-		{
-			"font" "resource/fonts/LEMONMILK-LightItalic"
-			"name" "LEMON MILK Light Italic"
-		}
-		"11"
-		{
-			"font" "resource/fonts/LEMONMILK-Medium"
-			"name" "LEMON MILK Medium"
-		}
-		"12"
-		{
-			"font" "resource/fonts/LEMONMILK-MediumItalic"
-			"name" "LEMON MILK Medium Italic"
-		}
-		"13"
-		{
 			"font" "resource/fonts/LEMONMILK-Regular"
 			"name" "LEMON MILK Regular"
-		}
-		"14"
-		{
-			"font" "resource/fonts/LEMONMILK-RegularItalic"
-			"name" "LEMON MILK Regular Italic"
 		}
 	}
 }

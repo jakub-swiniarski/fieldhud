@@ -44,20 +44,20 @@
 		"font"					"LEMONMILK-Bold24"
 		"alpha"					"0"
 	}
-
+	
 	"ChargeMeter"
-	{	
+	{		
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"LEMONMILK-Bold24"
-		"xpos"					"36"
-		"ypos"					"100"
+		"xpos"					"231"
+		"ypos"					"175"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"115"
 		"wide_minmode"			"50"
-		"tall"					"10"				
+		"tall"					"7"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -65,7 +65,22 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}			
+	}
+	
+	"MeterBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MeterBG"
+		"xpos"			"226"
+		"ypos"			"170"
+		"zpos"			"0"
+		"wide"			"125"
+		"tall"			"17"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+		"alpha"			"0" //disabled, cuz it appears all the time, even when using stickies
+	}
 		
 	"PipesPresentPanel"
 	{

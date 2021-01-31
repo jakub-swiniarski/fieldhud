@@ -128,7 +128,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"40"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -146,7 +146,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"LEMONMILK-Bold16"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -154,12 +154,13 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"40"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"LEMONMILK-Bold16"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
+			"fgcolor"				"255 255 255 255"
 		}
 	}			
 	"OvertimeBG"

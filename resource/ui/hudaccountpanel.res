@@ -56,8 +56,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"52"
-		"ypos"			"70"
+		"xpos"			"118"
+		"ypos"			"55"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
 		"wide"			"55"
@@ -73,15 +73,15 @@
 		"brighttext"	"0"
 		"font"			"LEMONMILK-Bold24"
 		"font_lodef"	"HudFontMedium"
-		"fgcolor"		"20 230 40 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"AccountValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBG"
-		"xpos"			"54"
-		"ypos"			"70"
+		"xpos"			"120"
+		"ypos"			"55"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
 		"wide"			"55"
@@ -98,5 +98,58 @@
 		"font"			"LEMONMILK-Bold24"
 		"font_lodef"	"HudFontMedium"
 		"fgcolor"		"0 0 0 255"
+	}
+	
+	"bgmetal"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bgmetal"
+		"xpos"			"120"
+		"ypos"			"53"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_2_lodef"	"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_3_lodef"	"../hud/color_panel_blu"
+		"scaleImage"		"1"			
+		"src_corner_height"		"15"
+		"src_corner_width"		"15"			
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
+	}
+	
+	"bgmetal2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgmetal2"
+		"xpos"			"115"
+		"ypos"			"48"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}	
+	
+	"bgmetal3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgmetal3"
+		"xpos"			"120"
+		"ypos"			"53"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
 	}
 }
