@@ -172,10 +172,9 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-
+		
 		if_wider
 		{
 			"wide"			"f0"
@@ -188,38 +187,79 @@
 			"tall"			"f0"
 		}
 		
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{	
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		if_halloween_5
-		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon_widescreen"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2020_widescreen"
-		}		
+//		if_halloween_0
+//		{
+//			"image"		"../console/title_team_halloween2011_widescreen"
+//		}
+//		if_halloween_1
+//		{
+//			"image"		"../console/title_team_halloween2012_widescreen"
+//		}
+//		if_halloween_2
+//		{
+//			"image"		"../console/title_team_halloween2013_widescreen"
+//		}
+//		if_halloween_3
+//		{
+//			"image"		"../console/title_team_halloween2014_widescreen"
+//		}
+//		if_halloween_4
+//		{	
+//			"image"		"../console/title_team_halloween2015_widescreen"
+//		}
+//		if_halloween_5
+//		{	
+//			"image"		"../console/title_scream_fortress_2017_widescreen"
+//		}
+//		if_fullmoon
+//		{
+//			"image"		"../console/title_fullmoon_widescreen"
+//		}
+//		if_christmas
+//		{
+//			"image"		"../console/background_xmas2020_widescreen"
+//		}		
+	}
+	
+	"BG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-199"
+		"wide"			"9999"
+		"tall"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}	
+	"BoxForBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"c-115"
+		"ypos"			"50"
+		"zpos"			"-198"
+		"wide"			"250"
+		"tall"			"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 220 255 255"
+	}
+	
+	"BoxForBorder2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"c-105"
+		"ypos"			"60"
+		"zpos"			"-198"
+		"wide"			"230"
+		"tall"			"330"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
 	}
 					
 	"TFLogoImage"
@@ -242,8 +282,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"			"c-290"
-		"ypos"			"32"
+		"xpos"			"c-90"
+		"ypos"			"57"
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
@@ -251,55 +291,55 @@
 		"enabled"		"1"
 		"labelText"		"FieldHUD"
 		"font"			"LEMONMILK-Bold60"
-		"fgcolor_override"		"0 75 185 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	
 	"TitleBG"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleBG"
-		"xpos"			"c-287"
-		"ypos"			"35"
-		"zpos"			"1"
+		"xpos"			"c-87"
+		"ypos"			"60"
+		"zpos"			"0"
 		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"FieldHUD"
 		"font"			"LEMONMILK-Bold60"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"50 220 255 150"
 	}
 	
 	"Title2"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title2"
-		"xpos"			"c-270"
-		"ypos"			"68"
+		"xpos"			"c-55"
+		"ypos"			"93"
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"by Field, for Field"
+		"labelText"		"by MisterField"
 		"font"			"LEMONMILK-Bold24"
-		"fgcolor_override"		"0 75 185 255"
+		"fgcolor_override"		"255 255 255 255"
 	}
 	
-	"TitleBG2"
+	"Title2BG"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TitleBG2"
-		"xpos"			"c-269"
-		"ypos"			"69"
-		"zpos"			"1"
+		"fieldName"		"Title2BG"
+		"xpos"			"c-54"
+		"ypos"			"94"
+		"zpos"			"0"
 		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"by Field, for Field"
+		"labelText"		"by MisterField"
 		"font"			"LEMONMILK-Bold24"
-		"fgcolor_override"		"0 0 0 255"
+		"fgcolor_override"		"50 220 255 150"
 	}
 	
 	"TFCharacterImage"
@@ -339,7 +379,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-100"
+		"xpos"			"c-200"
 		"ypos"			"125"
 		"wide"			"15"
 		"tall"			"15"
@@ -410,7 +450,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-400"
+		"xpos"			"c-500"
 		"ypos"			"98"
 		"zpos"			"-52"
 		"wide"			"320"
@@ -478,20 +518,6 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 		"alpha"			"0"
-	}
-
-	"RankBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RankBG"
-		"xpos"			"c-290"
-		"ypos"			"120"
-		"zpos"			"-100"
-		"wide"			"220"
-		"tall"			"60"
-		"enabled"		"0"
-		"visible"		"1"
-		"fillcolor"		"40 40 40 255"
 	}
 	
 	"TooltipPanel"
@@ -2372,8 +2398,8 @@
 		"zpos"			"-50"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}				
@@ -2386,8 +2412,8 @@
 		"zpos"			"-5-"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	
