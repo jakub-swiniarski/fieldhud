@@ -234,10 +234,11 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
 	}	
+	
 	"BoxForBorder"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
+		"fieldName"		"BoxForBorder"
 		"xpos"			"c-115"
 		"ypos"			"50"
 		"zpos"			"-198"
@@ -251,12 +252,12 @@
 	"BoxForBorder2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"c-105"
-		"ypos"			"60"
-		"zpos"			"-198"
-		"wide"			"230"
-		"tall"			"330"
+		"fieldName"		"BoxForBorder2"
+		"xpos"			"c-110"
+		"ypos"			"55"
+		"zpos"			"-197"
+		"wide"			"240"
+		"tall"			"340"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
@@ -380,7 +381,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"c-200"
-		"ypos"			"125"
+		"ypos"			"178"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -451,7 +452,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"c-500"
-		"ypos"			"98"
+		"ypos"			"153"
 		"zpos"			"-52"
 		"wide"			"320"
 		"tall"			"100"
@@ -463,6 +464,34 @@
 
 		"show_model"	"0"
 		"show_type"		"1"
+	}
+	
+	"RankBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankBG"
+		"xpos"			"c-400"
+		"ypos"			"148"
+		"zpos"			"-198"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 220 255 255"
+	}
+	
+	"RankBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankBG2"
+		"xpos"			"c-395"
+		"ypos"			"153"
+		"zpos"			"-197"
+		"wide"			"230"
+		"tall"			"110"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
 	}
 
 	"NoGCMessage"
@@ -2416,14 +2445,14 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}	
-
+	}
+		
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-18"
+		"xpos"			"c-40"
+		"ypos"			"150"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"
@@ -2433,8 +2462,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"font"			"LEMONMILK-Bold24"
-		"textAlignment"	"west"
+		"font"			"LEMONMILK-Bold32"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2456,8 +2485,8 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
 		}		
@@ -2483,8 +2512,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-165"
-		"ypos"			"rs1-18"
+		"xpos"			"c-40"
+		"ypos"			"190"
 		"wide"			"100"
 		"tall"			"26"
 		"autoResize"	"0"
@@ -2494,8 +2523,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"font"			"LEMONMILK-Bold24"
-		"textAlignment"	"west"
+		"font"			"LEMONMILK-Bold32"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -2518,8 +2547,8 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"scaleImage"	"1"
 			"image" "glyph_store"
 		}		
