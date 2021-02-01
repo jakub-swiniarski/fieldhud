@@ -248,14 +248,14 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"255 255 255 255"
+		Button.BgColor					"255 255 255 0"
+		Button.ArmedTextColor			"50 220 255 255"
+		Button.ArmedBgColor				"0 0 0 0"
+		Button.SelectedTextColor		"50 220 255 255"
+		Button.SelectedBgColor			"0 0 0 0"
+		Button.DepressedTextColor		"50 220 255 255"
+		Button.DepressedBgColor			"0 0 0 0"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
