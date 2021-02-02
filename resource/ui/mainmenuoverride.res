@@ -239,7 +239,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BoxForBorder"
-		"xpos"			"c-115"
+		"xpos"			"c-125"
 		"ypos"			"50"
 		"zpos"			"-198"
 		"wide"			"250"
@@ -253,7 +253,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BoxForBorder2"
-		"xpos"			"c-110"
+		"xpos"			"c-120"
 		"ypos"			"55"
 		"zpos"			"-197"
 		"wide"			"240"
@@ -278,12 +278,72 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}	
+	
+	"ButtonsBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ButtonsBG"
+		"xpos"			"c160"
+		"ypos"			"148"
+		"zpos"			"-198"
+		"wide"			"240"
+		"tall"			"200"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"50 220 255 255"
+	}
+	
+	"ButtonsBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ButtonsBG2"
+		"xpos"			"c165"
+		"ypos"			"153"
+		"zpos"			"-197"
+		"wide"			"230"
+		"tall"			"190"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
+	}
+	
+	"FixButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"FixButton"
+		"xpos"			"c155"
+		"ypos"			"170"
+		"wide"			"250"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"LEMONMILK-Bold32"
+		"textAlignment"	"center"
+		"command"		"engine record fix; stop"
+		"labeltext"		"FIX ISSUES"
+	}
+	
+	"ViewmodelButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ViewmodelButton"
+		"xpos"			"c155"
+		"ypos"			"210"
+		"wide"			"250"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"LEMONMILK-Bold32"
+		"textAlignment"	"center"
+		"command"		"engine toggle r_drawviewmodel 0 1"
+		"labeltext"		"TRYHARD MODE"
+	}
 
 	"Title"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"			"c-90"
+		"xpos"			"c-100"
 		"ypos"			"57"
 		"zpos"			"1"
 		"wide"			"256"
@@ -299,7 +359,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleBG"
-		"xpos"			"c-87"
+		"xpos"			"c-97"
 		"ypos"			"60"
 		"zpos"			"0"
 		"wide"			"256"
@@ -315,7 +375,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title2"
-		"xpos"			"c-55"
+		"xpos"			"c-65"
 		"ypos"			"93"
 		"zpos"			"1"
 		"wide"			"256"
@@ -331,7 +391,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title2BG"
-		"xpos"			"c-54"
+		"xpos"			"c-64"
 		"ypos"			"94"
 		"zpos"			"0"
 		"wide"			"256"
@@ -2451,7 +2511,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-40"
+		"xpos"			"c-50"
 		"ypos"			"150"
 		"wide"			"100"
 		"tall"			"26"
@@ -2512,7 +2572,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-40"
+		"xpos"			"c-50"
 		"ypos"			"190"
 		"wide"			"100"
 		"tall"			"26"
@@ -2558,10 +2618,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-110"
+		"xpos"			"c-100"
 		"ypos"			"230"
 		"zpos"			"1"
-		"wide"			"250"
+		"wide"			"200"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2606,10 +2666,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-110"
+		"xpos"			"c-100"
 		"ypos"			"270"
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"200"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
