@@ -30,7 +30,7 @@
 		"wide"			"150"
 		"tall"			"100"
 		"autoResize"	"1"
-		"pinCorner"		"2"		//add full uber label saying 'FULL' ("labelText" "FULL") and animate it to change its alpha from 0 to 255 when uber is full + u gotta change uber value's alpha to 0 then and do opposite things when uber not full anymore
+		"pinCorner"		"2"		//add full uber label saying 'FULL' ("labelText" "FULL") and animate it to change its alpha from 0 to 255 when uber is full + u gotta change uber value's alpha to 0 then and do opposite things when uber not full anymore or just ask ppl on reddit how to disable percentage icon and leave only the number
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
