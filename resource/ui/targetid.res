@@ -1,14 +1,14 @@
 "Resource/UI/TargetID.res"
 {
 	"TargetIDBG"
-	{
+	{	
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
+		"ypos"			"30"
+		"zpos"			"-2"
 		"wide"			"252"
-		"tall"	 		"50"
+		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -20,12 +20,43 @@
 		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"15"				// pixels inside the image
+		"src_corner_height"		"15"
 		"src_corner_width"		"15"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"	
 		"draw_corner_height" 	"0"	
+	}
+	
+	"DarkerTeamColor"
+	{	
+		"ControlName"	"ImagePanel"
+		"fieldName"		"DarkerTeamColor"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"-2"
+		"wide"			"252"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+		"alpha"			"0" //bc of position problems :/
+	}
+	
+	"BlackTargetIDBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlackTargetIDBG"
+		"xpos"			"0"
+		"ypos"			"-15"
+		"zpos"			"-3"
+		"wide"			"252"
+		"tall"	 		"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"
 	}
 
 	"TargetIDBG_Spec_Blue"
@@ -134,9 +165,9 @@
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"LEMONMILK-Bold24"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"255 255 255 255"
 	}	
 	
 	"AmmoIcon"
