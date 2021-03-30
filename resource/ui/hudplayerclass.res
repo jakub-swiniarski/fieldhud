@@ -123,59 +123,6 @@
 		"teambg_3"			"../hud/character_blue_bg_clipped"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
-	
-	"bghealth"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"bghealth"
-		"xpos"			"0"
-		"ypos"			"320"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		"scaleImage"		"1"			
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"			
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
-	}
-	
-	"bghealth2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bghealth2"
-		"xpos"			"0"
-		"ypos"			"315"
-		"zpos"			"0"
-		"wide"			"125"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-	}	
-	
-	"bghealth3"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"bghealth3"
-		"xpos"			"0"
-		"ypos"			"320"
-		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-	}
 
 	"classmodelpanel"
 	{
