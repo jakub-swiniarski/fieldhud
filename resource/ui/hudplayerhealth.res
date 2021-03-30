@@ -5,21 +5,67 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
+		"xpos"			"c-125"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"282"	[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"100"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	
+	"healthbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"healthbg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 120"
+		"alpha"			"255"
+	}
+	
+	"lowhealthbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"lowhealthbg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 50 50 120"
+		"alpha"			"0"
+	}
+	
+	"bonushealthbg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bonushealthbg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"150 255 50 120"
+		"alpha"			"0"
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,13 +121,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-63"
+		"xpos"			"0"
 		"xpos_minmode"	"61"
 		"ypos"			"0"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"100"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -93,13 +139,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-59"
+		"xpos"			"3"
 		"xpos_minmode"	"61"
-		"ypos"			"0"	[$WIN32]
+		"ypos"			"3"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"100"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -107,8 +153,6 @@
 		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"0 0 0 255"
 	}
-	
-	//bg panels for health are located in hudplayerclass
 	
 	"PlayerStatusMaxHealthValue"
 	{
