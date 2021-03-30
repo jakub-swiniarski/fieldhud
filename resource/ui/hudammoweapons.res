@@ -42,6 +42,36 @@
 		"alpha"			"0"
 	}
 	
+	"ammobg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ammobg"
+		"xpos"			"c25"
+		"ypos"			"c50"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 120"
+		"alpha"			"255"
+	}
+	
+	"lowammobg"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"lowammobg"
+		"xpos"			"c25"
+		"ypos"			"c50"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 50 50 120"
+		"alpha"			"0"
+	}
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -86,20 +116,6 @@
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
 		
-	}		
-
-	"ammobg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ammoclipbg"
-		"xpos"			"c25"
-		"ypos"			"c50"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"75"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 120"
 	}
 	
 	"AmmoInReserve"
