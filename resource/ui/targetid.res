@@ -108,7 +108,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"LEMONMILK-Bold16"
+		"font"			"LEMONMILK-Regular16"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -131,7 +131,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"LEMONMILK-Bold12"
+		"font"			"LEMONMILK-Regular12"
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
@@ -165,7 +165,7 @@
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"LEMONMILK-Bold24"
+		"TFFont"		"LEMONMILK-Regular24"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"255 255 255 255"
 	}	

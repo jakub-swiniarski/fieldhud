@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"255 255 255 255"
 	}
 	"PlayerStatusHealthValueBG"
@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"0 0 0 255"
 	}
 	
@@ -125,7 +125,7 @@
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"LEMONMILK-Bold12"
+		"font"			"LEMONMILK-Regular12"
 		"fgcolor"		"185 255 125 255"
 	}
 	"PlayerStatusBleedImage"

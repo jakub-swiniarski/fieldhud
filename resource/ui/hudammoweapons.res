@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"90"
 		"xpos_minmode"	"8"
@@ -120,7 +120,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"94"
 		"xpos_minmode"	"9"
@@ -144,7 +144,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"LEMONMILK-Bold24"
+		"font"			"LEMONMILK-Regular24"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"LEMONMILK-Bold24"
+		"font"			"LEMONMILK-Regular24"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"0 0 0 255"
@@ -186,7 +186,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"104"
 		"ypos"			"67"
@@ -206,7 +206,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"108"
 		"xpos_hidef"	"2"

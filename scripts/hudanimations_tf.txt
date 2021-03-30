@@ -439,7 +439,7 @@ event HudMedicCharged
 	//Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
 	Animate ChargeMeter 	FgColor		"150 250 50 255"	Linear 0.0 0.0
-	Animate	ChargeLabel 	FgColor		"150 250 50 255"		Linear 0.0 0.0
+	Animate	ChargeLabel 	FgColor		"150 250 50 255"	Linear 0.0 0.0
 	
 	RunEvent HudMedicChargedLoop	0.6
 }

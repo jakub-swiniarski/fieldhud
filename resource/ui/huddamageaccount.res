@@ -9,8 +9,8 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"LEMONMILK-Bold16"
-		"delta_item_font_big"	"LEMONMILK-Bold16"
+		"delta_item_font"		"LEMONMILK-Regular16"
+		"delta_item_font_big"	"LEMONMILK-Regular16"
 	}
 	
 	"DamageAccountLabel"
@@ -27,7 +27,7 @@
 		"labelText"         "%metal%"
 		"textAlignment"     "center"
 		"fgcolor"           "235 220 50 255"
-		"font"              "LEMONMILK-Bold24"
+		"font"              "LEMONMILK-Regular24"
 	}
 	
 	"DamageAccountLabelBG"
@@ -44,6 +44,6 @@
 		"labelText"         "%metal%"
 		"textAlignment"     "center"
 		"fgcolor"           "0 0 0 255"
-		"font"              "LEMONMILK-Bold24"
+		"font"              "LEMONMILK-Regular24"
 	}
 }
