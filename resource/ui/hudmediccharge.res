@@ -39,7 +39,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 	}
 	
 	"ChargeLabelBG"
@@ -64,7 +64,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"alpha"			"255"
 	}
 	
@@ -89,7 +89,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Bold60"
+		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"255 100 255 255"
 	}
 	

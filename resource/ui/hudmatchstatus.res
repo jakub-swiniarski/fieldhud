@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"LEMONMILK-Bold24"
+		"font"			"LEMONMILK-Regular24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"LEMONMILK-Bold24"
+		"font"			"LEMONMILK-Regular24"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -233,7 +233,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumSmallRegular"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -256,7 +256,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumSmallRegular"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -319,7 +319,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"LEMONMILK-Bold24"
+			"font"			"LEMONMILK-Regular24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"255 255 255 255"
@@ -349,7 +349,7 @@
 				"ypos"			"2"
 				"ypos_minmode"	"12"
 				"tall"			"50"
-				"font"			"LEMONMILK-Bold16"
+				"font"			"LEMONMILK-Regular16"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}

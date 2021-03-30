@@ -2976,83 +2976,21 @@ Scheme
 			}
 		}
 		
-		//LEMONMILK Bold fonts
-		
-		LEMONMILK-Bold12
+		LEMONMILK-Regular48
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold16
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold24
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"24"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold32
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"32"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold36
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"36"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold42
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
-				"tall"		"42"
-				"antialias" "1"
-			}
-		}
-		
-		LEMONMILK-Bold48
-		{
-			"1"
-			{
-				"name"		"LEMON MILK Bold"
+				"name"		"LEMON MILK Regular"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Bold60
+		LEMONMILK-Regular60
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"LEMON MILK Regular"
 				"tall"		"60"
 				"antialias" "1"
 			}

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"LEMONMILK-Bold24"
+		"font"			"LEMONMILK-Regular24"
 		"xpos"			"81"
 		"xpos_minmode"	"0"
 		"ypos"			"145"
