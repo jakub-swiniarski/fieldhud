@@ -23,24 +23,7 @@
 		"src_corner_height"		"15"
 		"src_corner_width"		"15"
 		"draw_corner_width"		"0"	
-		"draw_corner_height" 	"0"	
-	}
-	
-	"DarkerTeamColor"
-	{	
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DarkerTeamColor"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"-2"
-		"wide"			"252"
-		"tall"	 		"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-		"alpha"			"0" //bc of position problems :/
+		"draw_corner_height" 	"0"
 	}
 	
 	"BlackTargetIDBG"
@@ -56,7 +39,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 120"
 	}
 
 	"TargetIDBG_Spec_Blue"

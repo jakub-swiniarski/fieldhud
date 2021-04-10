@@ -79,18 +79,18 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 255"
-		"alpha"			"0" //disabled, cuz it appears all the time, even when using stickies
+		"alpha"			"0" //disabled, cuz it appears all the time, even when using stickies (bc the meter in demoman pipes is actually the shield charge meter, meter for stickies is in huddemomancharge)
 	}
 		
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"248"
-		"ypos"			"6"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"100"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -114,66 +114,27 @@
 			"alpha"			"0"
 		}	
 		
-		"bgpipes"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"bgpipes"
-			"xpos"			"20"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"90"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"		"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/color_panel_red"
-			"teambg_2_lodef"	"../hud/color_panel_red"
-			"teambg_3"		"../hud/color_panel_blu"
-			"teambg_3_lodef"	"../hud/color_panel_blu"
-			"scaleImage"		"1"			
-			"src_corner_height"		"15"
-			"src_corner_width"		"15"			
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		
-		"bgpipes2"
+		"pipesbg"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"bgpipes2"
-			"xpos"			"15"
-			"ypos"			"1"
-			"zpos"			"0"
-			"wide"			"90"
-			"tall"			"50"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"0 0 0 255"
-		}
-		
-		"bgpipes3"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"bgpipes3"
-			"xpos"			"20"
-			"ypos"			"6"
+			"fieldName"		"pipesbg"
+			"xpos"			"c140"
+			"ypos"			"c100"
 			"zpos"			"2"
-			"wide"			"90"
-			"tall"			"40"
+			"wide"			"50"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 100"
+			"fillcolor"		"0 0 0 120"
 		}
 		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"28"
+			"xpos"			"c132"
 			"xpos_minmode"	"42"
-			"ypos"			"7"
+			"ypos"			"c101"
 			"ypos_minmode"	"12"
 			"zpos"			"3"
 			"wide"			"70"
@@ -193,13 +154,14 @@
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"255 255 255 255"
 		}
+		
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"30"
+			"xpos"			"c134"
 			"xpos_minmode"	"43"
-			"ypos"			"7"
+			"ypos"			"c103"
 			"ypos_minmode"	"13"
 			"zpos"			"2"
 			"wide"			"70"
@@ -219,30 +181,6 @@
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"0 0 0 255"
 		}		
-		
-		"StickyLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"StickyLabel"
-			"xpos"			"31"
-			"xpos_minmode"	"43"
-			"ypos"			"24"
-			"ypos_minmode"	"13"
-			"zpos"			"3"
-			"wide"			"70"
-			"tall"			"20"
-			"autoResize"	"1"
-			"pinCorner"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"STICKIES"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"LEMONMILK-Regular16"
-			"fgcolor"		"255 255 255 255"
-		}	
 	}
 	
 	"NoPipesPresentPanel"
