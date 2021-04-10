@@ -5,14 +5,14 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r195"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"360"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"250"
-		"tall"			"250"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"255 255 255 255"
 		"MeterBG"		"0 0 0 255"
 	}
@@ -68,12 +68,12 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"75"
-		"ypos"					"65"
+		"xpos"					"c-121"
+		"ypos"					"c150"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"115"
+		"wide"					"240"
 		"wide_minmode"			"50"
 		"tall"					"7"				
 		"autoResize"			"0"
@@ -89,13 +89,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MeterBG"
-		"xpos"			"70"
-		"ypos"			"60"
+		"xpos"			"c-126"
+		"ypos"			"c145"
 		"zpos"			"0"
-		"wide"			"125"
+		"wide"			"250"
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 120"
 	}
 }
