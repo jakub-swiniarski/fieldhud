@@ -132,7 +132,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"c132"
+			"xpos"			"c131"
 			"xpos_minmode"	"42"
 			"ypos"			"c101"
 			"ypos_minmode"	"12"
@@ -159,7 +159,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"c134"
+			"xpos"			"c133"
 			"xpos_minmode"	"43"
 			"ypos"			"c103"
 			"ypos_minmode"	"13"

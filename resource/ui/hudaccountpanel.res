@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"c132"
+		"xpos"			"c131"
 		"ypos"			"c101"
 		"ypos_lodef"	"121"
 		"zpos"			"3"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBG"
-		"xpos"			"c134"
+		"xpos"			"c133"
 		"ypos"			"c103"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
