@@ -1,7 +1,7 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
+{
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"LEMONMILK-Regular24"
@@ -18,7 +18,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}					
+	}
 	
 	"MeterBG"
 	{
