@@ -355,6 +355,7 @@
 			}
 		}
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -366,6 +367,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
+		"alpha"			"0"
 
 
 		"max_size"	"19"
@@ -393,48 +395,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"230 50 50 255"
-		}
-		
-		"bluteam"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"bluteam"
-			"xpos"			"c-35"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"35"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"50 100 255 255"
-		}
-		
-		"darkerteamcolors"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"darkerteamcolors"
-			"xpos"			"c-35"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"70"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"0 0 0 50"
-		}
-		
-		"teamcolorsbg"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"teamcolorsbg"
-			"xpos"			"c-40"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"80"
-			"tall"			"40"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"45 45 45 180"
 		}
 
 		"playerpanels_kv"
@@ -470,6 +430,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 			}
+			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -485,6 +446,7 @@
 				"scaleImage"	"1"	
 				"proportionaltoparent"	"1"
 			}
+			
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -499,6 +461,7 @@
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
+			
 			"healthbar"
 			{	
 				"ControlName"			"ContinuousProgressBar"
@@ -519,6 +482,7 @@
 				"bgcolor_override"	   "80 80 80 255"
 				"proportionaltoparent"	"1"
 			}
+			
 			"overhealbar"
 			{	
 				"ControlName"			"ContinuousProgressBar"
@@ -540,6 +504,7 @@
 				"fgcolor_override"	   "255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
+			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -557,6 +522,7 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}
+			
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -576,6 +542,7 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
+			
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -592,6 +559,7 @@
 				"image"			"hud/checkmark"
 				"scaleImage"	"1"
 			}
+			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -609,6 +577,7 @@
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
 			}
+			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -626,6 +595,7 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 			}
+			
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -643,6 +613,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
+			
 			"DeathPanel"
 			{
 				"ControlName"	"ImagePanel"
@@ -658,6 +629,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
 			}
+			
 			"SkullPanel"
 			{
 				"ControlName"	"ImagePanel"

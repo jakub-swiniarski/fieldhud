@@ -19,7 +19,7 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
 	
 	"healthbg"
 	{
@@ -79,7 +79,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-	}		
+	}	
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -95,6 +96,7 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -117,6 +119,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -135,6 +138,7 @@
 		"font"			"LEMONMILK-Regular60"
 		"fgcolor"		"255 255 255 255"
 	}
+	
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
