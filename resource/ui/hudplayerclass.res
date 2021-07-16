@@ -14,6 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+	
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
@@ -35,6 +36,7 @@
 		"scaleImage"	"1"	
 		"alpha"			"0"
 	}
+	
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -57,7 +59,8 @@
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"	
 		"alpha"			"0"
-	}	
+	}
+	
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -77,7 +80,8 @@
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
-	}		
+	}
+	
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -142,6 +146,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"alpha"			"0"
 		
 		"render_texture"	"0"
 		"fov"			"12"

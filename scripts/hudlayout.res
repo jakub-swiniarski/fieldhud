@@ -1127,7 +1127,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
+		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1163,8 +1163,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
+		"ypos_minmode"			"15"
+		"ypos_lodef"			"75"
 		"wide"					"125"
 		"tall"					"70"
 	}
