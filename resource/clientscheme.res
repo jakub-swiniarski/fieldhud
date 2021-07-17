@@ -2914,83 +2914,83 @@ Scheme
 			}
 		}
 		
-		//LEMONMILK Regular fonts
+		//Plavsky fonts
 		
-		LEMONMILK-Regular12
+		Plavsky12
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular16
+		Plavsky16
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular24
+		Plavsky24
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular32
+		Plavsky32
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular36
+		Plavsky36
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular42
+		Plavsky42
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular48
+		Plavsky48
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"48"
 				"antialias" "1"
 			}
 		}
 		
-		LEMONMILK-Regular60
+		Plavsky60
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Regular"
+				"name"		"Plavsky"
 				"tall"		"60"
 				"antialias" "1"
 			}
@@ -5862,13 +5862,8 @@ Scheme
 		}			
 		"7"
 		{
-			"font" "resource/fonts/LEMONMILK-Bold"
-			"name" "LEMON MILK Bold"
-		}
-		"8"
-		{
-			"font" "resource/fonts/LEMONMILK-Regular"
-			"name" "LEMON MILK Regular"
+			"font" "resource/fonts/Plavsky.otf"
+			"name" "Plavsky"
 		}
 	}
 }
