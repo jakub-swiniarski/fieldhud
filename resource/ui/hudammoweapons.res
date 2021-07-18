@@ -230,7 +230,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 	}	
 	
@@ -254,7 +254,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 		
 	}								
