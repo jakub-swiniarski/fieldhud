@@ -168,7 +168,7 @@
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"LEMONMILK-Regular12"
+		"font"			"Plavsky12"
 		"fgcolor"		"185 255 125 255"
 	}
 	"PlayerStatusBleedImage"
