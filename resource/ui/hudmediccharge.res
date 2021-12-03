@@ -30,7 +30,7 @@
 		"wide"			"150"
 		"tall"			"100"
 		"autoResize"	"1"
-		"pinCorner"		"2"		//add full uber label saying 'FULL' ("labelText" "FULL") and animate it to change its alpha from 0 to 255 when uber is full + u gotta change uber value's alpha to 0 then and do opposite things when uber not full anymore or just ask ppl on reddit how to disable percentage icon and leave only the number
+		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -39,7 +39,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Regular60"
+		"font"			"Plavsky60"
 	}
 	
 	"ChargeLabelBG"
@@ -64,7 +64,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Regular60"
+		"font"			"Plavsky60"
 		"alpha"			"255"
 	}
 	
@@ -89,7 +89,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LEMONMILK-Regular60"
+		"font"			"Plavsky60"
 		"fgcolor"		"255 100 255 255"
 	}
 	

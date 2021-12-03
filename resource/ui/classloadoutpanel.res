@@ -108,11 +108,12 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"LEMONMILK-Regular32"
+		"font"			"Plavsky32"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

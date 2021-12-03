@@ -60,7 +60,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LEMONMILK-Regular12"
+		"font"					"Plavsky12"
 	}
 
 	"ItemEffectMeter"
