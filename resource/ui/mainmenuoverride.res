@@ -407,38 +407,6 @@
 		"fgcolor_override"		"50 220 255 150"
 	}
 	
-	"Title2"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"Title2"
-		"xpos"			"c-65"
-		"ypos"			"93"
-		"zpos"			"1"
-		"wide"			"256"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"by MisterField"
-		"font"			"Plavsky24"
-		"fgcolor_override"		"255 255 255 255"
-	}
-	
-	"Title2BG"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"Title2BG"
-		"xpos"			"c-64"
-		"ypos"			"94"
-		"zpos"			"0"
-		"wide"			"256"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"by MisterField"
-		"font"			"Plavsky24"
-		"fgcolor_override"		"50 220 255 150"
-	}
-	
 	"TFCharacterImage"
 	{
 		// "ControlName"	"ImagePanel"
@@ -2715,7 +2683,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ADV. OPTIONS"
+		"labelText"		"ADVANCED"
 		"font"			"Plavsky32"
 		"textAlignment"	"center"
 		"textinsetx"	"18"
@@ -2733,21 +2701,6 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"0"
-			"scaleImage"	"0"
-			"image"			"glyph_options"
-			"scaleImage"	"1"
-		}				
 	}
 	
 	"NewUserForumsButton"
